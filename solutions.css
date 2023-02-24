@@ -100,3 +100,41 @@
   }
 }
 
+.ex-12-button:hover .ex-12-top-white{
+  animation-name: slide-right;
+  animation-iteration-count: 1;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+  animation-name: slide-left;
+  animation-iteration-count: 1;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+}
+
+@keyframes slide-right {
+  0%{
+    left: 10%;
+  }
+  50%{
+    left: 68%;
+  }
+  100%{
+    left: 10%;
+  }
+}
+
+@keyframes slide-left {
+  0%{
+    right: 20%;
+  }
+  50%{
+    right: 68%;
+  }
+  100%{
+    right: 20%;
+  }
+}
+
