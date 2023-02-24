@@ -64,3 +64,20 @@
   border-radius: 20px;
   transform: scale(1.5);
 }
+
+.ex-10-icon {
+  animation-name: spin;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+
+@keyframes spin{
+  from{
+    transform: rotate(0);
+  }
+  to{
+    transform: rotate(-360deg);
+  }
+}
+
