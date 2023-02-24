@@ -45,3 +45,17 @@
 .ex-6-img:hover{
   filter: grayscale(1);
 }
+
+.ex-7-img, .ex-8-img{
+  transition: all 1s linear;
+}
+
+.ex-7-img:hover{
+  filter: hue-rotate(-0.25turn) drop-shadow(0 0 4px #074F89);
+}
+
+.ex-8-img:hover{
+  filter: blur(1px) sepia(80%);
+  border-radius: 20px;
+  overflow: hidden;
+}
