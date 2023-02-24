@@ -41,3 +41,7 @@
 .ex-5-square:active {
   transform: scale(.5);
 }
+
+.ex-6-img:hover{
+  filter: grayscale(1);
+}
