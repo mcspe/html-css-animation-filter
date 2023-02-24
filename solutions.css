@@ -29,3 +29,15 @@
 .ex-4-square:hover {
   opacity: 0;
 }
+
+.ex-5-square {
+  transition: all .5s linear;
+}
+
+.ex-5-square:hover {
+  transform: scale(2);
+}
+
+.ex-5-square:active {
+  transform: scale(.5);
+}
