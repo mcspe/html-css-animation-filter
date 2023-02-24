@@ -46,7 +46,7 @@
   filter: grayscale(1);
 }
 
-.ex-7-img, .ex-8-img{
+.ex-7-img, .ex-8-img, .ex-9-img{
   transition: all 1s linear;
 }
 
@@ -55,7 +55,12 @@
 }
 
 .ex-8-img:hover{
-  filter: blur(1px) sepia(80%);
+  filter: blur(.5px) sepia(80%);
   border-radius: 20px;
-  overflow: hidden;
+}
+
+.ex-9-img:hover {
+  filter: blur(.5px) sepia(80%);
+  border-radius: 20px;
+  transform: scale(1.5);
 }
