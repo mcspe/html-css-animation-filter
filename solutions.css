@@ -138,3 +138,72 @@
   }
 }
 
+.ex-13-button:hover .ex-13-top-white{
+  animation-name: circle-one;
+  animation-iteration-count: 1;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+
+.ex-13-button:hover .ex-13-bottom-white{
+  animation-name: circle-two;
+  animation-iteration-count: 1;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+
+@keyframes circle-one {
+  0%{
+    top: -10px;
+    left: 10%;
+  }
+  30%{
+    top: -10px;
+    left: 100%;
+  }
+  50%{
+    top: 63px;
+    left: 100%;
+  }
+  80%{
+    top: 63px;
+    left: -30%;
+  }
+  90%{
+    top: -10px;
+    left: -30%;
+  }
+  100%{
+    top: -10px;
+    left: 10%;
+  }
+}
+
+@keyframes circle-two {
+  0%{
+    bottom: -10px;
+    right: 20%;
+  }
+  30%{
+    bottom: -10px;
+    right: 100%;
+  }
+  50%{
+    bottom: 64px;
+    right: 100%;
+  }
+  80%{
+    bottom: 64px;
+    right: -30%;
+  }
+  90%{
+    bottom: -10px;
+    right: -30%;
+  }
+  100%{
+    bottom: -10px;
+    right: 20%;
+  }
+
+}
+
